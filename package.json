@@ -1,0 +1,27 @@
+{
+  "name": "saucelabs",
+  "version": "1.0.0",
+  "description": "Assignment for saucelabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Niall Conroy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^26.0.5",
+    "babel": "^6.23.0",
+    "jest": "^26.1.0",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "ts-jest": "^26.1.3",
+    "typescript": "^3.9.7"
+  },
+  "jest": {
+    "transform": {
+      "\\.ts$": [
+        "ts-jest"
+      ]
+    }
+  }
+}
