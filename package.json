@@ -4,6 +4,7 @@
   "description": "Assignment for saucelabs",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "author": "Niall Conroy",
