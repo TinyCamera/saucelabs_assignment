@@ -20,7 +20,7 @@ I created several sub services to implement this solution and to ensure code cla
 # What I didn't get done, but would have liked to
 Due to time constaints, I was not able to complete testing. However, as I have split the code into smaller atomic services, I feel unit testing would be trivial. More sophisticated integration testing could be implemented by mocking the MagnificentService and asserting correct results in the output logfile. 
 
-With a little more effort, my solution could be parametised in a number of different ways. It could test any url/webservice, could even calculate metrics over a much larger period of time. 
+With a little more effort, my solution could be parametised in a number of different ways. It could test any url/webservice, could even calculate metrics over a much larger period of time or modify polling frequency. 
 
 
 I'm keen to talk more about my solution, so if you have any other questions, please reach out.
